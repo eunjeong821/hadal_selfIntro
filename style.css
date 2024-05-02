@@ -1,0 +1,411 @@
+.fix {
+    display: flex;
+    width: 1440px;
+    height: 1024px;
+    align-items: flex-start;
+    justify-content: center;
+    position: relative;
+    background-color: #ffffff;
+  }
+  
+  .fix .profile-container {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .fix .profilebackground {
+    position: relative;
+    width: 406px;
+    height: 1300px;
+    background-color: #DBEAD9;
+  }
+  
+  .fix .music-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 328px;
+    height: 454px;
+    align-items: center;
+    justify-content: center;
+    gap: 68px 5px;
+    padding: 10px 0px;
+    position: absolute;
+    top: 512px;
+    left: 39px;
+    background-color: #ffffff99;
+  }
+  
+  .fix .album-item {
+    position: relative;
+    width: 270px;
+    height: 270px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    object-fit: cover;
+  }
+  
+  .fix .title-item {
+    position: relative;
+    width: fit-content;
+    font-family: "Inter-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #000000;
+    font-size: 27px;
+    margin-top: -90px;
+    margin-left: 80px;
+    margin-right: 80px;
+    letter-spacing: 2.7px;
+    line-height: 33px;
+  }
+  
+  .fix .singer-item {
+    position: relative;
+    width: fit-content;
+    font-family: "Inter-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #414141;
+    font-size: 15px;
+    margin-top: -160px;
+    margin-left: 80px;
+    margin-right: 80px;
+    letter-spacing: 1.5px;
+    line-height: normal;
+  }
+  
+  .fix .totalplay-item {
+    position: relative;
+    width: 270px;
+    height: 3px;
+  }
+  
+  .fix .img {
+    position: relative;
+    margin-top: -200px;
+    width: 27px;
+    height: 27px;
+  }
+  
+  .fix .pause-wrapper {
+    position: relative;
+    margin-top: -200px;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 40px;
+    height: 40px;
+  }
+  
+  .fix .basicprofile {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 21px;
+    position: absolute;
+    top: 72px;
+    left: 38px;
+  }
+  
+  .fix .picture-wrapper {
+    position: relative;
+    width: 250px;
+    height: 250px;
+    background-color: #f5f4f2;
+    border-radius: 125px;
+  }
+  
+  .fix .korname-item {
+    position: relative;
+    width: fit-content;
+    font-family: "Jua-Regular", Helvetica;
+    font-weight: 800;
+    color: #585858;
+    font-size: 40px;
+    letter-spacing: 16px;
+    line-height: normal;
+  }
+  
+  .fix .engname-item {
+    position: relative;
+    width: fit-content;
+    font-family: "JejuGothic-Regular", Helvetica;
+    font-weight: 400;
+    color: #858585;
+    font-size: 23px;
+    letter-spacing: 2.3px;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .fix .line {
+    position: relative;
+    width: 330px;
+    height: 2.99px;
+    margin-right: -0.01px;
+  }
+  
+  .fix .picture-item {
+    position: absolute;
+    width: 180px;
+    height: 180px;
+    top: 35px;
+    left: 75px;
+    object-fit: cover;
+  }
+  
+  .fix .info-container {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 52px;
+    padding: 54px 65px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .fix .information {
+    display: flex;
+    flex-wrap: wrap;
+    width: 904px;
+    align-items: center;
+    justify-content: center;
+    gap: 80px 30px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .fix .div-wrapper {
+    display: flex;
+    width: 904px;
+    align-items: center;
+    justify-content: space-around;
+    gap: 10px;
+    padding: 18px 311px;
+    position: relative;
+    background-color: #ffffff;
+    border-radius: 40px;
+    overflow: hidden;
+    border: 4px solid;
+    border-color: #dbead9;
+  }
+  
+  .fix .text-wrapper {
+    position: relative;
+    width: fit-content;
+    margin-top: -4px;
+    font-family: "Jua-Regular", Helvetica;
+    font-weight: 600;
+    color: #6c6c6c;
+    font-size: 40px;
+    letter-spacing: 8px;
+    line-height: normal;
+  }
+  
+  .fix .div {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .fix .info-wrapper {
+    display: flex;
+    width: 340px;
+    align-items: center;
+    gap: 20px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .fix .picture-wrapper-2 {
+    position: relative;
+    width: 90px;
+    height: 90px;
+    background-color: #f0f1dd;
+    border-radius: 45px;
+  }
+  
+  .fix .text-wrapper-2 {
+    position: relative;
+    width: fit-content;
+    font-family: "Jua-Regular", Helvetica;
+    font-weight: 550;
+    color: #4c534a;
+    font-size: 18px;
+    letter-spacing: 1px;
+    line-height: normal;
+  }
+  
+  .fix .cake-wrapper {
+    position: absolute;
+    width: 55px;
+    height: 55px;
+    top: 15px;
+    left: 17px;
+  }
+  
+  .fix .info-wrapper-2 {
+    width: 354px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .fix .picture-wrapper-3 {
+    position: relative;
+    width: 90px;
+    height: 90px;
+    background-color: #ddeaf1;
+    border-radius: 45px;
+  }
+  
+  .fix .img-2 {
+    position: absolute;
+    width: 55px;
+    height: 55px;
+    top: 17px;
+    left: 17px;
+  }
+  
+  .fix .MBTI-item {
+    position: absolute;
+    top: 31px;
+    left: 19px;
+    font-family: "Jua-Regular", Helvetica;
+    font-weight: 600;
+    color: #646464;
+    font-size: 24px;
+    margin-left: -4px;
+    letter-spacing: 1.2px;
+    line-height: normal;
+  }
+  
+  .fix .haedal-item {
+    position: absolute;
+    width: 48px;
+    height: 34px;
+    top: 22px;
+    left: 20px;
+  }
+  
+  .fix .hobby-container {
+    display: flex;
+    flex-direction: column;
+    width: 338px;
+    align-items: flex-start;
+    gap: 10px;
+    position: relative;
+  }
+  
+  .fix .info-wrapper-3 {
+    width: 364px;
+    margin-right: -26px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .fix .hobby-wrapper {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: 22px;
+    left: 20px;
+  }
+  
+  .fix .character-wrapper {
+    position: absolute;
+    width: 42px;
+    height: 40px;
+    top: 18px;
+    left: 20px;
+  }
+  
+  .fix .account-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 904px;
+    align-items: center;
+    justify-content: center;
+    gap: 89px 47px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .fix .gmail-container {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    margin-left: 100px;
+    margin-right: 70px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .fix .gmail-wrapper {
+    position: relative;
+    width: 120px;
+    height: 90px;
+    background-size: cover;
+    background-position: 50% 50%;
+  }
+  
+  .fix .gmailaddress-item {
+    position: relative;
+    width: fit-content;
+    font-family: "JejuGothic-Regular", Helvetica;
+    font-weight: 400;
+    color: #8a8a8a;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .fix .div-2 {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+    margin-right: 70px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .fix .instagram-item {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+  }
+  
+  .fix .text-wrapper-3 {
+    position: relative;
+    width: fit-content;
+    font-family: "JejuGothic-Regular", Helvetica;
+    font-weight: 400;
+    color: #8a8a8a;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .fix .github-wrapper {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    background-size: cover;
+    background-position: 50% 50%;
+  }
+  
